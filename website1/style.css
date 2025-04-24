@@ -16,7 +16,7 @@ nav {
 }
 
 .logo {
-    color: #000000;
+    color: #080808;
     font-size: 1.5rem;
     font-style: italic;
     padding: 0 2rem;
@@ -136,12 +136,19 @@ body {
     color: #333;
 }
 
+#spacing {
+    background: #080808;
+}
+
+.ServiceCardBackground {
+    background: #080808;
+}
+
 /* Section Styling */
 #Services {
     flex: 1;
     max-width: 600px;
     background: #ffffff;
-    margin-top: 6px;
     border-radius: 15px;
     padding: 2rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -151,7 +158,7 @@ body {
 .content h2 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
-    color: #333;
+    color: #1c1c1c;
 }
 
 .content h3 {
@@ -196,3 +203,27 @@ label {
 }
 
 /*readmore button end*/
+
+.roadmap {
+    flex: 1;
+    background: #080808;
+    padding: 2rem;
+}
+
+.Get-in-Touch {
+    flex: 1;
+    background: #080808;
+    padding: 2rem;
+}
+
+.Inspo {
+    flex: 1;
+    background: #080808;
+    padding: 2rem;
+}
+
+.Questions {
+    flex: 1;
+    background: #080808;
+    padding: 2rem;
+}
