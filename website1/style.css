@@ -8,7 +8,7 @@
 /*navigation at top of screen*/
 nav {
     height: 80px;
-    background-color: #fdcc04;
+    color: #fdcc04;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,7 @@ nav a {
 .hero-content h1 {
     margin-bottom: 1rem;
     font-size: 3rem;
-    color: #ffff;
+    color: #ffffff;
     /* Adjust contrast against the image */
 }
 
@@ -66,7 +66,7 @@ nav a {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    color: #ffff;
+    color: #ffffff;
     /* Ensures readability on darker images */
 }
 
@@ -206,24 +206,133 @@ label {
 
 .roadmap {
     flex: 1;
-    background: #080808;
+    background: #000000;
     padding: 2rem;
 }
+
+.roadmap h1 {
+    color: #fdcc04;
+    text-shadow: #333;
+}
+
+.roadmap h2 {
+    font-size: large;
+    color: #fdcc04;
+}
+
+.roadmap p {
+    color: #fff;
+}
+
 
 .Get-in-Touch {
     flex: 1;
-    background: #fdcc04;
+    background: linear-gradient(100deg, #000000, #fdcc04);
     padding: 2rem;
 }
 
-.Inspo {
-    flex: 1;
-    background: #fdcc04;
-    padding: 2rem;
+.Get-in-Touch h1 {
+    color: #fdcc04;
 }
+
+.Get-in-Touch p {
+    color: #fdcc04;
+}
+
+.contact-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+/* Questionable additions*/
+
+.contact-left-title h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 5px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 5px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #fdcc04;
+}
+
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+/*Questionable additions end*/
 
 .Questions {
     flex: 1;
-    background: #080808;
+    background: #000000;
     padding: 2rem;
+}
+
+.Questions h1 {
+    color: #ffc812;
+}
+
+.Questions h2 {
+    font-size: large;
+    color: #ff1900;
+}
+
+.Questions p {
+    color: #fff;
+}
+
+.footer p {
+    margin-left: 1rem;
+    font-size: small;
+}
+
+.footer h1 {
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.footer h2 {
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.footer img {
+    margin-left: 1rem;
 }
