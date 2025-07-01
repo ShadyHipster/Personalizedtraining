@@ -204,38 +204,38 @@ label {
 
 /*readmore button end*/
 
-.roadmap {
+#roadmap {
     flex: 1;
     background: #000000;
     padding: 2rem;
 }
 
-.roadmap h1 {
+#roadmap h1 {
     color: #fdcc04;
     text-shadow: #333;
 }
 
-.roadmap h2 {
+#roadmap h2 {
     font-size: large;
     color: #fdcc04;
 }
 
-.roadmap p {
+#roadmap p {
     color: #fff;
 }
 
 
-.Get-in-Touch {
+#Get-in-Touch {
     flex: 1;
     background: linear-gradient(100deg, #000000, #fdcc04);
     padding: 2rem;
 }
 
-.Get-in-Touch h1 {
+#Get-in-Touch h1 {
     color: #fdcc04;
 }
 
-.Get-in-Touch p {
+#Get-in-Touch p {
     color: #fdcc04;
 }
 
