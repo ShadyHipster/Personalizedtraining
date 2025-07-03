@@ -37,3 +37,36 @@ nav a {
 }
 
 /*navigation end*/
+
+/* Different Body options */
+.circle‐row {
+    display: flex;
+    justify-content: space-evenly;
+    /* even space between AND at the ends */
+    align-items: center;
+    padding: 2rem 0;
+    /* adjust vertical spacing as needed */
+    width: 100%;
+    /* full‐width row */
+}
+
+.circle {
+    width: 200px;
+    /* circle diameter */
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* clip the img to the circle */
+    flex-shrink: 0;
+    /* don’t let them shrink on small screens */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* optional styling */
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensure the image fills the circle */
+    display: block;
+}
