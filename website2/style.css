@@ -37,7 +37,10 @@ nav a {
 }
 
 /*navigation end*/
+
+
 /* container for each circle + its label */
+
 .option {
     text-align: center;
     /* allow the label below the circle */
@@ -58,11 +61,9 @@ nav a {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    box outline: 2px;
-    ;
+    outline: 2px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    border: .3px solid black;
 }
 
 /* your image fills the mask */

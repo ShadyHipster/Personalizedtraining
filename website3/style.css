@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fdcc04;
+    color: #333;
+}
+
+/*navigation at top of screen*/
+nav {
+    height: 80px;
+    color: #fdcc04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: #080808;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 1.5rem;
+}
+
+/*navigation end*/
+
+#main {
+    padding-top: 20px;
+    padding-left: 20px;
+    background: white;
+}
+
+#main h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#main p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.footer p {
+    margin-left: 1rem;
+    font-size: small;
+}
+
+.footer h1 {
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.footer h2 {
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.footer img {
+    margin-left: 1rem;
+}

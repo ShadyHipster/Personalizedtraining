@@ -306,7 +306,7 @@ label {
 }
 
 .Questions h1 {
-    color: #ffc812;
+    color: #ff1900;
 }
 
 .Questions h2 {
@@ -316,6 +316,10 @@ label {
 
 .Questions p {
     color: #fff;
+}
+
+.footer {
+    padding-top: 20px;
 }
 
 .footer p {
