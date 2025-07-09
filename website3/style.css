@@ -56,6 +56,35 @@ nav a {
     line-height: 1.5;
 }
 
+.exercise-group {
+    margin: 1em 0;
+}
+
+.full-width-btn {
+    display: block;
+    /* makes button a block element */
+    width: 100%;
+    /* fills the parent container */
+    margin: 0.5em 0;
+    /* vertical spacing between buttons */
+    padding: 0.75em 1em;
+    /* adjust for comfy click/tap area */
+    font-size: 1rem;
+    text-align: left;
+    /* or center if you’d rather */
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* simple hover effect */
+.full-width-btn:hover {
+    background: #e8e8e8;
+}
+
+
 /*footer at bottom of screen*/
 footer {
     display: flex;
@@ -105,8 +134,4 @@ button:hover {
 
 .footer h2 {
     font-size: smaller;
-}
-
-.footer img {
-    margin-left: 1rem;
 }

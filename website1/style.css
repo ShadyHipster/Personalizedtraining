@@ -341,21 +341,6 @@ footer {
     color: #fff;
 }
 
-button {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #777;
-}
-
 .footer p {
     margin-left: 1rem;
     font-size: small;
