@@ -8,13 +8,6 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
-    <script>
-        (function () {
-            emailjs.init("service_nr47s4u");
-        })();
-    </script>
-
 </head>
 
 <body>
@@ -132,7 +125,7 @@
             <form action="" class="contact-left">
                 <div class="contact-left-title">
                     <h1>Get in Touch with me for Questions and Custom Plans</h1>
-                    <p>Each plan is only $5.</p>
+                    <p>Each plan is only $10.</p>
                     <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
                     <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
                     <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
@@ -180,26 +173,6 @@
             <a href="https://discord.gg/882EQ7JB" target="_blank"><img src="images/discordlogo.png"></a>
         </div>
     </footer>
-
-    <script>
-        document.getElementById('contact-form')
-            .addEventListener('submit', function (event) {
-                event.preventDefault(); // prevent page reload
-
-                // these IDs come from your EmailJS dashboard
-                const serviceID = 'service_xxx';
-                const templateID = 'template_yyy';
-
-                emailjs.sendForm(serviceID, templateID, this)
-                    .then(() => {
-                        alert('Thanks! Your message was sent.');
-                        this.reset();
-                    }, (err) => {
-                        console.error('EmailJS error:', err);
-                        alert('Oops, something went wrong. Please try again.');
-                    });
-            });
-    </script>
 
 </body>
 
